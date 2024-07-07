@@ -14,8 +14,8 @@ const products = [
     {
         id: "1",
         name: "Sunil Joshi",
-        post: "Web Designer",
-        pname: "Elite Admin",
+        post: "Waste Management Officer",
+        pname: "San Carlos - Camaya",
         priority: "Low",
         pbg: "primary.main",
         budget: "3.9",
@@ -23,8 +23,8 @@ const products = [
     {
         id: "2",
         name: "Andrew McDownland",
-        post: "Project Manager",
-        pname: "Real Homes WP Theme",
+        post: "Waste Management Officer",
+        pname: "Poblacion - Ricarte",
         priority: "Medium",
         pbg: "secondary.main",
         budget: "24.5",
@@ -32,8 +32,8 @@ const products = [
     {
         id: "3",
         name: "Christopher Jamil",
-        post: "Project Manager",
-        pname: "MedicalPro WP Theme",
+        post: "Waste Management Officer",
+        pname: "San Isidro - Ipag",
         priority: "High",
         pbg: "error.main",
         budget: "12.8",
@@ -41,9 +41,9 @@ const products = [
     {
         id: "4",
         name: "Nirav Joshi",
-        post: "Frontend Engineer",
-        pname: "Hosting Press HTML",
-        priority: "Critical",
+        post: "Waste Management Officer",
+        pname: "Balon - Biaan",
+        priority: "Good",
         pbg: "success.main",
         budget: "2.4",
     },
@@ -53,7 +53,7 @@ const products = [
 const ProductPerformance = () => {
     return (
 
-        <DashboardCard title="Product Performance">
+        <DashboardCard title="Collection Route Performance">
             <Box sx={{ overflow: 'auto', width: { xs: '280px', sm: 'auto' } }}>
                 <Table
                     aria-label="simple table"
@@ -76,17 +76,17 @@ const ProductPerformance = () => {
                             </TableCell>
                             <TableCell>
                                 <Typography variant="subtitle2" fontWeight={600}>
-                                    Name
+                                    Route
                                 </Typography>
                             </TableCell>
                             <TableCell>
                                 <Typography variant="subtitle2" fontWeight={600}>
-                                    Priority
+                                    Efficiency
                                 </Typography>
                             </TableCell>
                             <TableCell align="right">
                                 <Typography variant="subtitle2" fontWeight={600}>
-                                    Budget
+                                    Time Record
                                 </Typography>
                             </TableCell>
                         </TableRow>
@@ -143,7 +143,7 @@ const ProductPerformance = () => {
                                     ></Chip>
                                 </TableCell>
                                 <TableCell align="right">
-                                    <Typography variant="h6">${product.budget}k</Typography>
+                                    <Typography variant="h6">{product.budget} ms</Typography>
                                 </TableCell>
                             </TableRow>
                         ))}

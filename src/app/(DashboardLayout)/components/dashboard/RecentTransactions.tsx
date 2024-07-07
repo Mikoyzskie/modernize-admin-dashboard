@@ -14,7 +14,7 @@ import { Link, Typography } from '@mui/material';
 
 const RecentTransactions = () => {
   return (
-    <DashboardCard title="Recent Transactions">
+    <DashboardCard title="Collection History">
       <>
         <Timeline
           className="theme-timeline"
@@ -35,45 +35,45 @@ const RecentTransactions = () => {
           }}
         >
           <TimelineItem>
-            <TimelineOppositeContent>09:30 am</TimelineOppositeContent>
+            <TimelineOppositeContent>04:30 pm</TimelineOppositeContent>
             <TimelineSeparator>
               <TimelineDot color="primary" variant="outlined" />
               <TimelineConnector />
             </TimelineSeparator>
-            <TimelineContent>Payment received from John Doe of $385.90</TimelineContent>
+            <TimelineContent>EOD: Collection Sync Report</TimelineContent>
           </TimelineItem>
           <TimelineItem>
-            <TimelineOppositeContent>10:00 am</TimelineOppositeContent>
+            <TimelineOppositeContent>03:00 pm</TimelineOppositeContent>
             <TimelineSeparator>
               <TimelineDot color="secondary" variant="outlined" />
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>
-              <Typography fontWeight="600">New sale recorded</Typography>{' '}
+              <Typography fontWeight="600">Disposal</Typography>{' '}
               <Link href="/" underline="none">
-                #ML-3467
+                Report ID: D11235
               </Link>
             </TimelineContent>
           </TimelineItem>
           <TimelineItem>
-            <TimelineOppositeContent>12:00 am</TimelineOppositeContent>
+            <TimelineOppositeContent>02:00 pm</TimelineOppositeContent>
             <TimelineSeparator>
               <TimelineDot color="success" variant="outlined" />
               <TimelineConnector />
             </TimelineSeparator>
-            <TimelineContent>Payment was made of $64.95 to Michael</TimelineContent>
+            <TimelineContent>Collection Ends: Route ID 1</TimelineContent>
           </TimelineItem>
           <TimelineItem>
-            <TimelineOppositeContent>09:30 am</TimelineOppositeContent>
+            <TimelineOppositeContent>10:00 am</TimelineOppositeContent>
             <TimelineSeparator>
               <TimelineDot color="warning" variant="outlined" />
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>
-              <Typography fontWeight="600">New sale recorded</Typography>{' '}
-              <Link href="/" underline="none">
+              <Typography >Initial Disposal: Bound to Site</Typography>{' '}
+              {/* <Link href="/" underline="none">
                 #ML-3467
-              </Link>
+              </Link> */}
             </TimelineContent>
           </TimelineItem>
           <TimelineItem>
@@ -83,15 +83,18 @@ const RecentTransactions = () => {
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>
-              <Typography fontWeight="600">New arrival recorded</Typography>
+              <Typography fontWeight="600">Delayed Collection</Typography>
+              <Link href="/" underline="none">
+                Incident Report
+              </Link>
             </TimelineContent>
           </TimelineItem>
           <TimelineItem>
-            <TimelineOppositeContent>12:00 am</TimelineOppositeContent>
+            <TimelineOppositeContent>08:00 am</TimelineOppositeContent>
             <TimelineSeparator>
               <TimelineDot color="success" variant="outlined" />
             </TimelineSeparator>
-            <TimelineContent>Payment Received</TimelineContent>
+            <TimelineContent>Collection Starts: Route ID 1</TimelineContent>
           </TimelineItem>
         </Timeline>
       </>
