@@ -34,7 +34,7 @@ const Menuitems = [
   },
   {
     id: uniqueId(),
-    title: "Shadow",
+    title: "Monitoring",
     icon: IconCopy,
     href: "/utilities/shadow",
   },

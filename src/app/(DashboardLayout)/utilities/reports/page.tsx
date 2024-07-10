@@ -78,7 +78,7 @@ const TypographyPage = () => {
 
           </DashboardCard>
         </Grid>
-        <Grid item sm={12}>
+        {/* <Grid item sm={12}>
           <DashboardCard title="Default Text">
             <Grid container spacing={3}>
               <Grid item sm={12}>
@@ -174,7 +174,7 @@ const TypographyPage = () => {
               </Grid>
             </Grid>
           </DashboardCard>
-        </Grid>
+        </Grid> */}
       </Grid >
     </PageContainer>
   );
