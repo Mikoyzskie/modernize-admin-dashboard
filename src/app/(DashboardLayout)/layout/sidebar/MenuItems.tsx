@@ -1,9 +1,9 @@
 import {
-  IconAperture,
+  IconRoute,
   IconCopy,
   IconLayoutDashboard,
   IconLogin,
-  IconMoodHappy,
+  IconTable,
   IconReportAnalytics,
   IconUserPlus,
 } from "@tabler/icons-react";
@@ -30,7 +30,7 @@ const Menuitems = [
     id: uniqueId(),
     title: "Reports",
     icon: IconReportAnalytics,
-    href: "/utilities/typography",
+    href: "/utilities/reports",
   },
   {
     id: uniqueId(),
@@ -44,14 +44,14 @@ const Menuitems = [
   },
   {
     id: uniqueId(),
-    title: "Icons",
-    icon: IconMoodHappy,
-    href: "/icons",
+    title: "Tabular Data",
+    icon: IconTable,
+    href: "/tables",
   },
   {
     id: uniqueId(),
-    title: "Sample Page",
-    icon: IconAperture,
+    title: "Routes",
+    icon: IconRoute,
     href: "/sample-page",
   },
   {

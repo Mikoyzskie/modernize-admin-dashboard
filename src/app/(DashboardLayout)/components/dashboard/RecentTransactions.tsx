@@ -94,7 +94,7 @@ const RecentTransactions = () => {
             <TimelineSeparator>
               <TimelineDot color="success" variant="outlined" />
             </TimelineSeparator>
-            <TimelineContent>Collection Starts: Route ID 1</TimelineContent>
+            <TimelineContent>Collection Start: Route 1</TimelineContent>
           </TimelineItem>
         </Timeline>
       </>
