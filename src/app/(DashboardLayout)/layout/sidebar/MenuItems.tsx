@@ -4,7 +4,7 @@ import {
   IconLayoutDashboard,
   IconLogin,
   IconMoodHappy,
-  IconTypography,
+  IconReportAnalytics,
   IconUserPlus,
 } from "@tabler/icons-react";
 
@@ -28,8 +28,8 @@ const Menuitems = [
   },
   {
     id: uniqueId(),
-    title: "Typography",
-    icon: IconTypography,
+    title: "Reports",
+    icon: IconReportAnalytics,
     href: "/utilities/typography",
   },
   {

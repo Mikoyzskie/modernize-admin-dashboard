@@ -17,7 +17,7 @@ const products = [
         post: "Waste Management Officer",
         pname: "San Carlos - Camaya",
         priority: "Low",
-        pbg: "primary.main",
+        pbg: "error.main",
         budget: "3.9",
     },
     {
@@ -35,7 +35,7 @@ const products = [
         post: "Waste Management Officer",
         pname: "San Isidro - Ipag",
         priority: "High",
-        pbg: "error.main",
+        pbg: "success.main",
         budget: "12.8",
     },
     {
@@ -44,7 +44,7 @@ const products = [
         post: "Waste Management Officer",
         pname: "Balon - Biaan",
         priority: "Good",
-        pbg: "success.main",
+        pbg: "primary.main",
         budget: "2.4",
     },
 ];
@@ -143,7 +143,7 @@ const ProductPerformance = () => {
                                     ></Chip>
                                 </TableCell>
                                 <TableCell align="right">
-                                    <Typography variant="h6">{product.budget} ms</Typography>
+                                    <Typography variant="h6">{product.budget} </Typography>
                                 </TableCell>
                             </TableRow>
                         ))}
