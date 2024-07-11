@@ -52,7 +52,7 @@ const Menuitems = [
     id: uniqueId(),
     title: "Routes",
     icon: IconRoute,
-    href: "/sample-page",
+    href: "/routes",
   },
   {
     navlabel: true,

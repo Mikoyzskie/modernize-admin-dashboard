@@ -1,0 +1,23 @@
+.routes__container {
+  display: flex;
+  gap: 20px;
+}
+
+.routes__container > * {
+  flex-basis: 50%;
+}
+
+.route__placeholder {
+  overflow: hidden;
+  width: 100%;
+}
+
+.route__placeholder .placeholder__image img {
+  object-fit: cover;
+  border-radius: 27px;
+}
+
+.kpi__container {
+  display: flex;
+  gap: 20px;
+}
