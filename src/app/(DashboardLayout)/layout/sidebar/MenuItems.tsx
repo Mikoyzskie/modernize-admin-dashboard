@@ -36,7 +36,7 @@ const Menuitems = [
     id: uniqueId(),
     title: "Monitoring",
     icon: IconCopy,
-    href: "/utilities/shadow",
+    href: "/utilities/monitoring",
   },
   {
     navlabel: true,

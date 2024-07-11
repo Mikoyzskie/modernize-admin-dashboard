@@ -71,97 +71,11 @@ const SamplePage = () => {
   const primarylight = '#ecf2ff';
   const successlight = theme.palette.success.light;
 
-  const secondary = theme.palette.secondary.main;
-  const secondarylight = '#f5fcff';
-
-  // chart
-  const optionscolumnchart: any = {
-    chart: {
-      type: 'donut',
-      fontFamily: "'Plus Jakarta Sans', sans-serif;",
-      foreColor: '#adb0bb',
-      toolbar: {
-        show: false,
-      },
-      height: 155,
-    },
-    colors: [primary, primarylight, '#F9F9FD'],
-    plotOptions: {
-      pie: {
-        startAngle: 0,
-        endAngle: 360,
-        donut: {
-          size: '75%',
-          background: 'transparent',
-        },
-      },
-    },
-    tooltip: {
-      theme: theme.palette.mode === 'dark' ? 'dark' : 'light',
-      fillSeriesColor: false,
-    },
-    stroke: {
-      show: false,
-    },
-    dataLabels: {
-      enabled: false,
-    },
-    legend: {
-      show: false,
-    },
-    responsive: [
-      {
-        breakpoint: 991,
-        options: {
-          chart: {
-            width: 120,
-          },
-        },
-      },
-    ],
-  };
-  const seriescolumnchart: any = [38, 40, 25];
-
-  const optionscolumnchart2: any = {
-    chart: {
-      type: 'area',
-      fontFamily: "'Plus Jakarta Sans', sans-serif;",
-      foreColor: '#adb0bb',
-      toolbar: {
-        show: false,
-      },
-      height: 60,
-      sparkline: {
-        enabled: true,
-      },
-      group: 'sparklines',
-    },
-    stroke: {
-      curve: 'smooth',
-      width: 2,
-    },
-    fill: {
-      colors: [secondarylight],
-      type: 'solid',
-      opacity: 0.05,
-    },
-    markers: {
-      size: 0,
-    },
-    tooltip: {
-      theme: theme.palette.mode === 'dark' ? 'dark' : 'light',
-    },
-  };
-  const seriescolumnchart2: any = [
-    {
-      name: '',
-      color: secondary,
-      data: [25, 66, 20, 40, 12, 58, 20],
-    },
-  ];
 
 
-  const errorlight = '#fdede8';
+
+
+
 
   return (
     <PageContainer title="Routes" description="this is Routes page">
